@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container{
+    background-image:url("images/img_1.png");
+    background-repeat: no-repeat;
+    background-size: 1230px 600px;
+}
+.container4{
+    background-color: rgb(208, 212, 212);
+    margin-left: 10px;
+    text-align: justify;
+    height: 60px;
+    
+}
+.link1{
+    color: rgb(249, 89, 15);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.link2{
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.link3{
+    background-color: rgb(6, 177, 43);
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 5px;
+    margin-right: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.unorder{
+    list-style-type: none;
+    float: right;
+    padding-top: 3px;
+}
+li{
+    display: inline;
+    padding: 20px;
+}
+.head1{
+    color: rgb(247, 105, 18);
+    font-family: 'Courier New', monospace;
+    font-weight: 800;
+    font-size:25PX;
+    margin: 0px;
+}
+.head2{
+    color: rgb(42, 42, 180);
+    font-family: 'Courier New', monospace;
+    font-weight: 800;
+    font-size:25PX;
+    margin: 0px;
+}
+.para1{
+    margin: 0px;
+    padding-left: 55px;
+}
+.button{
+    background-color: rgb(9, 188, 95);
+    color: aliceblue;
+    border-width: 0px;
+    font-size: 10px;
+    padding: 8px;
+    font-weight: bold;
+    margin-left: 160px;
+}
+.content{
+    padding: 100px;
+    margin-top: 70px;
+}
+img{
+    padding-left: 80px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+
+}

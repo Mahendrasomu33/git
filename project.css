@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.nav1{
+    background-color: rgb(180, 180, 160);
+    height: 30px;
+}
+.nav2{
+    background-color: rgb(216, 216, 212);
+    margin-top: 10px;
+}
+.menu{
+    float: right;
+    padding-top: 15px;
+}
+a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: rgb(16, 10, 10);
+    font-weight:bold ;
+}
+.box1{
+    background-color: rgb(220, 218, 215);
+    height: 290px;
+    width: 350px;
+    margin: 35px;
+}
+.box1{
+    background-color: #00719c;
+}
+.box2{
+    background-color: #673888;
+}
+.box3{
+    background-color: #c79dd7;
+}
+.box4{
+    background-color: #be29e7;
+}
+.box5{
+    background-color: #ffbf00;
+}
+.box6{
+    background-color: #ffdc73;
+}
+.head{
+    background-color: rgb(87, 86, 86);
+    color: rgb(215, 224, 232);
+    text-align: center;
+    padding: 5px;
+    margin-top: 0px;
+}
+p{
+    padding-left:10px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 22px;
+}
+.gaimg{
+    margin-left: 50px;
+}
+img{
+  
+  padding: 12px 25px;
+}
+.company{
+    margin-left: 70px;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+.boox1{
+    border:2px solid black;
+    height: 30px;
+    width: 190px;
+    margin: 3px 10px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(23, 32, 32);
+    padding: 4px;
+    color: aliceblue;
+}
+.order li a{
+    color: aliceblue;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+.foot1{
+    background-color: #585857;
+}.img1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1px;
+}
+.head1{
+    font-size: 20px;
+}
+.box3 ul li{
+    padding: 5px;
+}
