@@ -105,3 +105,63 @@
 .img1{
     padding-top: 40px;
 }
+.container6{
+    background-color: black;
+    padding: 50px 40px;
+    color: #fff;
+}
+.container6 h1{
+    width: 50%;
+    font-size: 45px;
+    padding-bottom: 50px;
+    font-weight: 100;
+}
+.container6 h2{
+    padding: 30px 0px;
+    font-size: 35px;
+    font-weight: 100;
+}
+.container7{
+    background-color: black;
+    color: #fff;
+    padding: 40px 0px;
+}
+.seven{
+    padding: 50px 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.seven h1{
+    width: 50%;
+    font-size: 46px;
+    font-weight: 100;
+}
+.seven1{
+    width: 50%;
+}
+.seven1 p{
+    font-size: 20px;
+}
+.seven1 button{
+    margin-top: 40px;
+}
+.foot{
+    background-color: black;
+    padding: 40px 40px;
+    color: #fff;
+}
+.footul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 30px;
+}
+.footul li a{
+    color: #fff;
+}
+#foota{
+    margin-right: 180px;
+    text-decoration: none;
+
+}

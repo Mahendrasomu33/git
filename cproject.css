@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    background-image: url("./images/carson3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.com-name{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}
+.navsub{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    list-style: none;
+    display: flex;
+}
+.menu li{
+    margin-right: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.hbtn{
+    background-color: #fff;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-bottom: -20px;
+    position: relative;
+    top: -10px;
+}
+.pbtn{
+    background-color: rgba(148, 148, 150, 0.2);
+    color: #fff;
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+}
+.phead{
+    color: #fff;
+    font-size: 68px;
+    font-weight: 100;
+}
+.pbtn1{
+    
+    padding: 10px 15px;
+    border: 1px solid rgb(173, 173, 173);
+    background-color: transparent;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 20px 130px;
+    display: flex;  
+}
+.hcontainer {
+    text-align: center;
+    border: 0px solid;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+  section{
+    background-image: url("./images/carson4.webp");
+    background-size: cover;
+    height: 630px;
+    width: 100%;
+    padding: 350px 30px 200px 80px;
+  }
+  section div{
+    text-align: center;
+    align-items: center;
+  }
+  .pbtn2{
+    padding: 10px 15px;
+    border: 1px solid rgb(173, 173, 173);
+    background-color: transparent;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 20px 490px;
+    display: flex;
+  }
+  .container3{
+    background-image: url("./images/carson5.webp");
+    background-size: cover;
+    height: 630px;
+    padding: 350px 10px 0px 0px;
+  }
+  .hcontainer2{
+    text-align: center;
+  }
+  .pbtn3{
+    margin-left: 540px;
+    padding: 10px 15px;
+    border: 1px solid rgb(173, 173, 173);
+    background-color: transparent;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    display: flex;
+  }
+  .container4{
+    background-image: url("./images/sarson4.jpg");
+    background-size: cover;
+    height: 630px;
+    padding: 350px 10px 0px 0px;
+  }
+  .hcontainer3{
+    text-align: center;
+  }
+  .pbtn4{
+    padding: 10px 15px;
+    border: 1px solid rgb(173, 173, 173);
+    background-color: transparent;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  .container5{
+    background-image: url("./images/carson6.webp");
+    background-size: cover;
+    height: 630px;
+    padding: 350px 10px 0px 0px;
+  }
+  .hcontainer4{
+    text-align: center;
+  }
+  .pbtn5{
+    padding: 10px 15px;
+    border: 1px solid rgb(173, 173, 173);
+    background-color: transparent;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  .foot{
+    background-color: black;
+    padding: 40px 40px;
+    color: #fff;
+}
+.footul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 30px;
+}
+.footul li a{
+    color: #fff;
+}
+#foota{
+    margin-right: 180px;
+    text-decoration: none;
+}
+.hhead{
+    font-size: 20px;
+    font-weight: 100;
+}
+.hhead1{
+    font-size: 270px;
+}
