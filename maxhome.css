@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+.nav1{
+    text-align: center;
+    background-color: rgb(17, 7, 83);
+    color: aliceblue;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 30px 0px 30px;
+}
+.nlog{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nlog a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0px 20px;
+}
+.nlog button{
+    padding: 8px 20px;
+    color: rgb(15, 136, 62);
+    border: none;
+    border-radius: 20px;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 30px;
+}
+.nav2 ul{
+    list-style: none;
+    display: flex;
+}
+.nav2 ul li a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: #333;
+}
+section{
+    background-color: bisque;
+}
