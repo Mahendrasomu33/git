@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.com-name{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}
+.navsub{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Container{
+    background-color: black;
+}
+.menu{
+    list-style: none;
+    display: flex;
+}
+.menu li{
+    margin-right: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.hbtn{
+    background-color: #fff;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-bottom: -20px;
+    position: relative;
+    top: -10px;
+}
+.phead{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 100;
+}
+.ppara{
+    color: #fff;
+    font-size: 25px;
+}
+.hcontainer {
+    text-align: center;
+    border: 0px solid;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+.container2{
+    background-image: url("./images/carson6.webp");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    padding: 100px 80px;
+}
+.container2 h1{
+    font-size: 50px;
+    width: 50%;
+    padding: 20px 0px;
+    font-weight: 100;
+}
+.container2 p{
+    font-size: 25px;
+    padding-left: 50%;
+}
+.container3{
+    background-color: black;
+    color: #fff;
+    padding: 120px 80px;
+}
+.container3 h1{
+    font-size: 60px;
+    width: 50%;
+    padding: 20px 0px;
+    font-weight: 100;
+}
+.container3 p{
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-left: 50%;
+}
+.container3 button{
+    margin-left: 50%;
+    background-color: #fff;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 30px;
+    position: relative;
+    top: -10px; 
+}
+.container4{
+    padding: 100px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.container5{
+    color: #fff;
+    padding: 50px 230px;
+    text-align: center;
+}
+.container5 h1{
+    font-size: 50px;
+}
+.container5 p{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.container6{
+    padding: 80px 30px;
+    color: #fff;
+    display: flex;
+    justify-content:left;
+    width: 100%;
+}
+.con6{
+    width: 75%;
+    display: flex;
+}
+.con61{
+    width: 25%;
+}
+.con61 h1{
+    font-size: 45px;
+}
+.con61 p{
+    padding-top: 300px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.sixbtn{
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.container7{
+    color: #fff;
+    padding: 50px;
+}
+.container7 h1{
+    font-size: 45px;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+.container7 p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.rr{
+    margin:30px 0px;
+}
+.faone{
+    display: flex;
+    justify-content: space-between;
+}
+.faone h2{
+    width: 250%;
+}
+.faone p{
+    font-size: 16px;
+    width: 250%;
+}
+.container8{
+    padding: 50px;
+    color: #fff;
+}
+.container8 p{
+    font-size: 18px;
+    width: 50%;
+}
+.foot{
+    background-color: black;
+    padding: 40px 40px;
+    color: #fff;
+}
+.footul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 30px;
+}
+.footul li a{
+    color: #fff;
+}
+#foota{
+    margin-right: 180px;
+    text-decoration: none;
+}
+.hhead{
+    font-size: 20px;
+    font-weight: 100;
+}
+.hhead1{
+    font-size: 270px;
+}
