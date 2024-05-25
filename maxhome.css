@@ -6,7 +6,6 @@
 body{
     font-family: sans-serif;
     font-size: 18px;
-    line-height: 30px;
 }
 .nav1{
     text-align: center;
@@ -47,5 +46,152 @@ body{
     color: #333;
 }
 section{
-    background-color: bisque;
+    background-color:antiquewhite;
+    display: flex;
+}
+.home1{
+    padding: 140px 10px 10px 50px;
+    width: 100%;
+}
+.home1 h1{
+    color: rgb(17, 7, 83);
+    font-size: 35pt;
+    padding-bottom: 10px;
+}
+.home1 p{
+    padding: 16px 0px;
+}
+.home1 button{
+    background-color: rgb(30, 119, 34);
+    color: aliceblue;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 28px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.depart{
+    padding: 100px 50px;
+}
+.depart h1{
+    color: rgb(17, 7, 83);
+    font-size: 35pt;
+    padding-bottom: 10px;
+}
+.done{
+    height: 180px;
+    width: 280px;
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgb(241, 244, 244);
+    box-shadow: 2px black;
+    margin-left: 10px;
+}
+.done i{
+    color: rgb(26, 120, 33);
+    font-size: 50px;
+}
+.dhome{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px 50px 0px;
+}
+.cource{
+    background-color: rgb(221, 221, 222);
+    text-align: center;
+    padding: 100px 50px;
+}
+.cource h1{
+    color: rgb(17, 7, 83);
+    font-size: 35pt;
+    padding-bottom: 10px;
+}
+.cource p{
+    color: #444343;
+}
+.cone{
+    height: 400px;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.chome{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+#para1{
+    color: rgb(26, 120, 33);
+}
+.cone img{
+    border-radius: 10px;
+}
+.sub{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.cap{
+    background-color: rgb(17, 7, 83);
+    padding: 80px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.cap h1{
+    color: aliceblue;
+    font-size: 50px;
+}
+.cap button{
+    background-color: rgb(26, 120, 33);
+    color: aliceblue;
+    padding: 1px 1px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+}
+.company{
+    background-color: rgb(250, 251, 253);
+    padding: 100px 50px;
+}
+.company h1{
+    color: rgb(17, 7, 83);
+    font-size: 35pt;
+    font-weight: 100;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.marquee img{
+    margin-right: 30px;
+}
+.company .marquee{
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+.down1{
+    padding: 200px 0px 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.down2{
+    width: 450px;
+}
+.icon1{
+    display: flex;
+    background-color: rgb(225, 228, 227);
+    padding: 20px;
+    margin: 10px;
+}
+.icon1 i{
+    color: rgb(26, 120, 33);
+    font-size: 50px;
+    padding-right: 20px;
+}
+.icon1 h2{
+    font-size: 19px;
+}
+.empty{
+    padding: 100px 50px;
+    display: flex;
 }
