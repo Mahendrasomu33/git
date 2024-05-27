@@ -46,7 +46,7 @@ body{
     color: #333;
 }
 section{
-    background-color:antiquewhite;
+    background-color:rgb(255, 253, 253);
     display: flex;
 }
 .home1{
@@ -149,7 +149,9 @@ section{
     font-weight: bold;
     border: none;
     border-radius: 30px;
+    height: 60px;
     width: 150px;
+    margin-top: 20px;
 }
 .company{
     background-color: rgb(250, 251, 253);
@@ -170,7 +172,7 @@ section{
     margin-bottom: 100px;
 }
 .down1{
-    padding: 200px 0px 100px 0px;
+    padding: 200px 0px 0px 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -179,9 +181,10 @@ section{
 }
 .icon1{
     display: flex;
-    background-color: rgb(225, 228, 227);
+    background-color: rgb(243, 245, 244);
     padding: 20px;
     margin: 10px;
+    box-shadow: 5px 5px whitesmoke;
 }
 .icon1 i{
     color: rgb(26, 120, 33);
@@ -194,20 +197,42 @@ section{
 .empty{
     padding: 100px 50px;
     display: flex;
+    background-color: rgb(17, 7, 83);
+    color:white;
+}
+.same{
+    background-color: rgb(250, 247, 247);
+    color: black;
+    padding: 50px 20px;
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 16px;
+}
+.side{
+    display: flex;
+    justify-content: space-between;
+}
+.side h2{
+    color: green;
+    background-color: rgb(204, 211, 204);
+    padding: 16px;
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+.same p{
+    color: #666262;
+}
+.side img{
+    border-radius: 40px;
 }
 .econt p u{
-    color: rgb(26, 120, 33);
     font-weight: bold;
     padding-bottom: 20px;
 }
 .econt h1{
-    color: rgb(17, 7, 83);
     font-size: 35pt;
     font-weight: 100;
     padding: 25px 0px;
-}
-.nine{
-    padding: 35px 0px;
 }
 .nine h2{
     background-color: rgb(181, 205, 189);
@@ -216,11 +241,16 @@ section{
     border-radius: 40px;
 }
 .nine p span{
-    color: rgb(26, 120, 33);
     font-size: 55px;
 }
 .econt h3{
     padding: 16px 0px;
+}
+.econt button{
+    background-color: transparent;
+    padding: 12px 30px;
+    border: 1px solid white;
+    border-radius: 26px;
 }
 .one1{
     background-color: aliceblue;
