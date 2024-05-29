@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.nav1{
+    text-align: center;
+    background-color: rgb(17, 7, 83);
+    color: aliceblue;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 30px 0px 30px;
+}
+.nlog{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nlog a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0px 20px;
+}
+.nlog button{
+    padding: 5px 20px;
+    color: rgb(15, 136, 62);
+    border: none;
+    border-radius: 20px;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 30px;
+}
+ .navone{
+    list-style: none;
+    display: flex;
+}
+.nav2 ul li a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: #333;
+}
+section{
+    background-color: rgb(235, 247, 235);
+    text-align: center;
+    padding: 80px 0px;
+}
+section i{
+    color: rgb(84, 177, 90);
+    font-size: 45px;
+}
+section h1{
+    color: rgb(17, 7, 83);
+    font-size: 60px;
+    font-weight: bold;
+}
+section p{
+    font-family: sans-serif;
+    color: #646060;
+}
+.contact1{
+    display: flex;
+    padding: 100px 50px;
+}
+.cone1 h1{
+    color: rgb(17, 7, 83);
+    font-size: 55px;
+    padding: 20px 0px;
+}
+.cone1{
+    width: 100%;
+    padding-right:40px;
+    padding-left: 100px;
+}
+.cone11{
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+    background-color: whitesmoke;
+    margin: 20px;
+}
+.cone11 i{
+    font-size: 45px;
+    color: rgb(76, 145, 80); 
+    padding-top: 20px;   
+}
+.cone11 h2{
+    font-size: 20px;
+}
+.cone11 p{
+    font-size: 16px;
+}
+.cource{
+    background-color: rgb(221, 221, 222);
+    text-align: center;
+    padding: 100px 50px;
+}
+.cource h1{
+    color: rgb(17, 7, 83);
+    font-size: 35pt;
+    padding-bottom: 10px;
+}
+.cource p{
+    color: #444343;
+}
+.cone{
+    height: 400px;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.chome{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+#para1{
+    color: rgb(26, 120, 33);
+}
+.cone img{
+    border-radius: 10px;
+}
+.sub{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.empty{
+    padding: 100px 50px;
+    display: flex;
+}
+.econt p u{
+    color: rgb(26, 120, 33);
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.nine p span{
+    color: rgb(26, 120, 33);
+    font-size: 55px;
+}
+.cap1{
+    background-color: rgb(17, 7, 83);
+    color: white;
+    height: 500px;
+    text-align: center;
+    padding-top: 100px;
+}
+.cap1 p{
+    padding: 16px 0px;
+}
+.cap1 input{
+    height: 60px;
+    width: 450px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 50px;
+}
+.cap1 button{
+    height: 60px;
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(26, 120, 33);
+    border-radius: 30px;
+    color: white;
+    border: none;
+}
+footer{
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.foot1{
+    width: 290px;
+}
+.foot1 h2{
+    padding: 20px 0px;
+    font-weight: 100;
+}
+.foot1 h3{
+    padding: 20px 0px;
+    font-weight: 100;
+    font-size: 18px;
+}
+.foot2{
+    width: 280px;
+}
+.foot2 h3{
+    padding: 0px 0px 12px 0px;
+}
+.foot2 p{
+    padding: 12px;
+    color: #444343;
+}
+.foot5{
+    background-color: rgb(235, 236, 237);
+    padding: 10px;
+    text-align: center;
+} 
