@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 80px 200px;
+}
+h1{
+    font-size: 200px;
+    font-weight: bold;
+    color: rgb(17, 7, 83);
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(17, 7, 83);
+}
+.btn1{
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 35px;
+    margin-right: 20px;
+}
+.btn2{
+    color: rgb(17, 7, 83);
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 20px 35px;
+    border: 1px solid black;
+}
