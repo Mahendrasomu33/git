@@ -44,4 +44,29 @@ th{
 #myCheckbox1{
     accent-color: green;
 }
+input[type="checkbox"]#myCheckbox{
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: rgb(228, 225, 225);
+    width: 18px;
+    height: 18px;
+    border: 3px solid white;
+    position: relative;
+}
+input[type="checkbox"]:checked {
+    background: red;
+}
+input[type="checkbox"]:checked:after {
+    /* Heres your symbol replacement */
+    content: "X";
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
   
