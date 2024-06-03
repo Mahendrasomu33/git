@@ -5,15 +5,22 @@ body{
 }
 .container{
     padding: 10px 10px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+.smpm{
+    display: flex;
+    overflow:auto ;
 }
 .smpm input{
      height: 35px;
-     width: 280px;
+     width: 480px;
      margin-right: 10px;
+     overflow-y: scroll;
 }
 .smpm button{
     height: 40px;
-    width: 280px;
+    width: 480px;
     background-color: green;
     color: white;
     border: none;
@@ -22,9 +29,10 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 40px;
+    overflow-y: scroll;
 }
 th, td {
-    padding: 8px;
+    padding: 6px;
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
@@ -33,10 +41,10 @@ th{
 }
 .checkbox1 input{
     color: rebeccapurple;
-    background-color: red;
 }
 .check1{
     display: flex;
+    flex-direction: column;
 }
 #myCheckbox{
     accent-color: red;
@@ -57,9 +65,9 @@ input[type="checkbox"]:checked {
     background: red;
 }
 input[type="checkbox"]:checked:after {
-    /* Heres your symbol replacement */
-    content: "X";
-    color: #fff;
+    content: "x";
+    color: #fd0303;
+    padding-bottom: 1px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -68,5 +76,24 @@ input[type="checkbox"]:checked:after {
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
 }
-
+.hide{
+    display: none;
+}
+#formContainer {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+button {
+    width: 20%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+#name{
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
   
