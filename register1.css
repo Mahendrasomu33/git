@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(236, 235, 234);
+}
+img{
+    padding: 0px 50px 0px 70px;
+    text-align: center;
+    margin-left: 430px;
+}
+.para1{
+    text-align: center;
+    margin: 0px;
+}
+.para2{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.para3{
+    text-align: center;
+}
+.form1{
+    background-color: white;
+    width: 340px;
+    padding: 30px;
+    margin: 10px 400px;
+}
+label{
+    margin:0px;
+}
+input{
+    margin: 10px 0px;
+    padding-left: 10px;
+    height: 32px;
+    width: 300px;
+    border: none;
+}
+select{
+    margin: 10px 0px;
+    height: 32px;
+    width: 310px;
+    border: none;
+}
+.btn1{
+    height: 36px;
+    width: 310px;
+    color: white;
+    background-color: blue;
+    border: none;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 3, 3);
+}
+.hidden{
+    display: none;
+}

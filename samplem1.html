@@ -9,12 +9,12 @@
 </head>
 <body>
     <div class="container">
-        <div>
+        <div class="head">
             <div>
                 <h3>Attendance</h3>
                 <p>Dashboard / Attendance</p>
             </div>
-            <div>
+            <div class="head1">
                 <button id="btn1">Click here</button>
                 <div id="formContainer" class="hide">
                     <form id="userForm">
@@ -29,10 +29,10 @@
             </div>
         </div>
         <div class="smpm">
-            <input type="text" class="int1" placeholder="Employee Name">
+            <input type="text" class="int1" placeholder="Employee Name" id="inp1">
             <input type="month"  placeholder="from">
             <input type="month" placeholder="To">
-            <button>SEARCH</button>
+            <button id="btn2">SEARCH</button>
         </div>
         <table>
             <thead>
@@ -71,8 +71,8 @@
                     <th>31</th>
             </thead>
             <tbody>
-                <tr>
-                    <td>Jhon</td>
+                <tr class="nameone">
+                    <td id="name1">Jhon</td>
                     <td class="checkbox1">
                         <div class="check1">
                             <input id="myCheckbox" class="css-checkbox" type="checkbox" />

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="register1.css">
+</head>
+<body>
+    <img src="./images/logo.png" height="100px" width="200px">
+    <div class="form1">
+        <h3 class="para1">Register</h3>
+        <p class="para2">Access to our dashboard</p>
+        <form>
+            <div id="namefield">
+                <label for="fname">Full Name</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Enter Your Name" required>
+            </div>
+            <div class="hidden" id="emailfield">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+            </div>
+            <div class="hidden" id="carsfield">
+                <label for="cars">Role Name</label><br>
+                <select name="role" id="cars">
+                    <option value="select">---Select Role---</option>
+                    <option value="Web Developer">Web Developer</option>
+                    <option value="devops">devops</option>
+                    <option value="database">database</option>
+                    <option value="software">software</option>
+                </select>
+            </div>
+            <div class="hidden" id="passwordfield">
+                <label for="Password">Password</label><br>
+                <input type="password" id="password" name="password" placeholder="Enter Password" required>
+            </div>
+            <div class="hidden" id="repasswordfield">
+                <label for="password"><b>Repeat Password</b></label><br>
+                <input type="password" id="password" name="password" value="" placeholder="Choose Repeat Password" required>
+            </div>
+            <div id="btnfield">
+            <button class="btn1" id="btn11">Register</button>
+            <p class="para3">Already have an account? <a href="#">Login</a></p>
+            </div>
+        </form>
+    </div>
+    <script src="register1.js"></script>
+</body>
+</html>

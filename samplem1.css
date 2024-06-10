@@ -12,6 +12,10 @@ body{
     display: flex;
     overflow:auto ;
 }
+.head{
+    display: flex;
+    justify-content: space-between;
+}
 .smpm input{
      height: 35px;
      width: 480px;
@@ -86,8 +90,11 @@ input[type="checkbox"]:checked:after {
     border-radius: 5px;
     width: 200px;
 }
+.head1{
+    margin-top: 20px;
+}
 button {
-    width: 20%;
+    width: 100%;
     padding: 8px;
     margin-bottom: 10px;
 }
@@ -95,5 +102,8 @@ button {
     width: 50%;
     padding: 8px;
     margin-bottom: 10px;
+}
+.nameone{
+    display: none;
 }
   
